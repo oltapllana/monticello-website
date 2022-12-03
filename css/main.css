@@ -55,22 +55,6 @@ table {
   box-sizing: border-box;
 }
 
-* {
-  outline: 1px solid red;
-}
-
-.container {
-  max-width: 1170px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.background {
-  width: 100%;
-  height: 800px;
-  background-image: url("../img/hero.png"), linear-gradient(243.43deg, #7E5AFF 16.9%, #55B7FF 83.27%);
-}
-
 .main-nav {
   display: flex;
   align-items: center;
@@ -88,8 +72,7 @@ table {
 .main-nav__menu > li > a {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  text-decoration: none;
 }
 .main-nav__menu .circle {
   outline: 1px solid white;
@@ -98,12 +81,11 @@ table {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0);
   margin: 3px;
+  margin-top: 7px;
+  margin-right: 7px;
 }
 .main-nav__menu a:hover > .circle {
   background-color: white;
-  outline: none;
-  width: 6px;
-  height: 6px;
 }
 .main-nav__socials {
   display: flex;
@@ -113,4 +95,86 @@ table {
 }
 .main-nav__socials > li {
   margin-left: 40px;
+}
+
+* {
+  outline: 1px solid red;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.background {
+  width: 100%;
+  height: 745px;
+  background-image: url("../img/hero.png"), linear-gradient(243.43deg, #7E5AFF 16.9%, #55B7FF 83.27%);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero {
+  font-family: "Montserrat", "sans serif";
+  color: white;
+}
+.hero__text {
+  margin-top: 260px;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+}
+.hero__title {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+}
+.hero__subtitle {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.3em;
+}
+.hero__scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 230px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.whatwedo {
+  margin-top: 130px;
+}
+.whatwedo__subtitle {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  color: #2C4058;
+}
+.whatwedo .sub {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 89px;
+}
+.whatwedo .line {
+  width: 100px;
+  height: 0px;
+  left: 750px;
+  top: 900px;
+  margin-bottom: 30px;
+  border: 1px solid #2C4058;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */

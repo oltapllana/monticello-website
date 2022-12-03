@@ -8,63 +8,82 @@
 }
 .background{
     width: 100%;
-    height: 800px;
+    height: 745px;
     background-image: url('../img/hero.png'),linear-gradient(243.43deg, #7E5AFF 16.9%, #55B7FF 83.27%) ;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
-.main-nav{
-    &{
-    display: flex;
-    align-items:center;
-    }
-    &__menu{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        height: 18px;
-        margin-left: 104px;
-     
-    
-        &>li{
-            margin-left: 40px;
-            
-        }
-        &>li>a{
+.hero{
+    font-family: $fontFamily;
+    color: $white;
+        &__text{
+            margin-top: 260px;
+            height: 420px;
             display: flex;
-            flex-direction: row;
+            justify-content: center;
+        }
+
+
+        &__title{
+        font-size: 80px;
+        font-weight: 700;
+
+        line-height: 98px;
+        letter-spacing: 0.1em;
+        }
+        &__subtitle{
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: 0.3em;
+        }
+        &__scroll{
+            display: flex;
             justify-content: center;
             align-items: center;
+            margin-top: 230px;
+            
         }
-        .circle{
-                outline: 1px solid white;
-                height: 5px;
-                width: 5px;
-                border-radius: 50%;
-                border: 1px solid #0000;
-                margin: 3px;
-         }
-         a:hover > .circle{
-                background-color: white;
-                outline: none;
-                width: 6px;
-                height: 6px;
-            }
-         
-         
-    }
-    &__socials{
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-        margin-left: 110px;
-      
-        &>li{
-            margin-left: 40px;
-        }
-        
-    }
-
 }
+// END HERO SECTION
+
+// WHAT WE DO SECTION
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.whatwedo{
+    margin-top: 130px;
+    &__subtitle{
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 54px;
+        color: $grey;
+    }
+    .sub{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+                margin-bottom: 89px;
+    }
+    .line{
+        width: 100px;
+        height: 0px;
+        left: 750px;
+        top: 900px;
+        margin-bottom: 30px;
+
+        border: 1px solid $grey;
+        align-items: center;
+    }
+   
+}
+
 
 // .owl-theme .owl-nav {
 //     display: none;

@@ -1,0 +1,51 @@
+
+.main-nav{
+    &{
+    display: flex;
+    align-items:center;
+    }
+    &__menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 18px;
+        margin-left: 104px;
+        &>li{
+            margin-left: 40px;
+            
+        }
+        &>li>a{
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;            
+        }
+        .circle{
+                outline: 1px solid $white;
+                height: 5px;
+                width: 5px;
+                border-radius: 50%;
+                border: 1px solid #0000;
+                margin: 3px;
+                margin-top: 7px;
+                margin-right: 7px;
+         }
+         a:hover > .circle{
+                background-color:$white;
+                
+            }
+         
+         
+    }
+    &__socials{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin-left: 110px;
+      
+        &>li{
+            margin-left: 40px;
+        }
+        
+    }
+
+}
