@@ -122,6 +122,22 @@ table {
   background-position: center;
 }
 
+.btn {
+  padding: 16px 42px;
+  border: 1px solid #2C4058;
+  width: 40%;
+  margin-top: 50px;
+}
+
+.btn a {
+  font-family: "Montserrat", "sans serif";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
+
 .hero {
   font-family: "Montserrat", "sans serif";
   color: white;
@@ -239,11 +255,27 @@ table {
 .news .sub {
   padding-top: 135px;
 }
-.news .grid-2__right {
+
+.gallery .grid-2__right {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.news .grid-2__right .first__column {
+.gallery .grid-2__right .first__column {
   display: grid;
   grid-template-rows: 1fr 1fr;
+}
+.gallery__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.gallery__btn {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery__btn a {
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

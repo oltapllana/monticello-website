@@ -18,6 +18,21 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.btn{
+    padding: 16px 42px;
+    border: 1px solid $grey;
+    width: 40%;
+    margin-top: 50px;
+    
+}
+.btn a{
+    font-family: $fontFamily;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
 .hero{
     font-family: $fontFamily;
     color: $white;
@@ -114,10 +129,8 @@ color: $grey;
         line-height: 20px;
         color: #000000;
 }
-
    
 }
-
 .line{
     width: 100px;
     height: 0px;
@@ -153,6 +166,10 @@ color: $grey;
     .sub{
         padding-top: 135px;
     }
+    
+
+}
+.gallery{
     .grid-2__right{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -160,6 +177,21 @@ color: $grey;
             display: grid;
             grid-template-rows: 1fr 1fr;
         }
+    }
+    &__div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    &__btn{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__btn a{
+        text-decoration: none;
     }
 
 }
