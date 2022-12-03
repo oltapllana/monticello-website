@@ -88,6 +88,14 @@ table {
 .main-nav__menu a:hover > .circle {
   background-color: white;
 }
+.main-nav__menu li a {
+  font-family: "Source Sans Pro", "sans serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+}
 .main-nav__socials {
   display: flex;
   flex-direction: row;
@@ -127,9 +135,6 @@ table {
   border: 1px solid #2C4058;
   width: 40%;
   margin-top: 50px;
-}
-
-.btn a {
   font-family: "Montserrat", "sans serif";
   font-weight: 400;
   font-size: 14px;
@@ -201,6 +206,7 @@ table {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+  margin-bottom: 40px;
   /* or 167% */
   color: #2C4058;
 }
@@ -278,4 +284,14 @@ table {
 }
 .gallery__btn a {
   text-decoration: none;
+}
+
+.map {
+  width: 1519px;
+  height: 700px;
+  background-image: url("../img/map.png");
+}
+.map__form {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }/*# sourceMappingURL=main.css.map */

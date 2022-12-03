@@ -34,6 +34,14 @@
                 background-color:$white;
                 
             }
+            li a{
+                font-family: $navFontFamily;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                color: $white;
+            }
          
          
     }
