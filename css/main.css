@@ -58,6 +58,7 @@ table {
 .main-nav {
   display: flex;
   align-items: center;
+  padding-top: 40px;
 }
 .main-nav__menu {
   display: flex;
@@ -107,6 +108,12 @@ table {
   margin: 0 auto;
 }
 
+.container1 {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .background {
   width: 100%;
   height: 745px;
@@ -121,7 +128,7 @@ table {
 }
 .hero__text {
   margin-top: 260px;
-  height: 420px;
+  height: 389px;
   display: flex;
   justify-content: center;
 }
@@ -143,7 +150,7 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 230px;
+  margin-top: 190px;
 }
 
 .grid-2 {
@@ -160,7 +167,54 @@ table {
   line-height: 54px;
   color: #2C4058;
 }
-.whatwedo .sub {
+.whatwedo__article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whatwedo__p1 {
+  margin-bottom: 26px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2C4058;
+}
+.whatwedo__text {
+  margin-top: 20px;
+  font-family: "Open sans", "sans serif";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  color: #2C4058;
+}
+.whatwedo__main-article a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: black;
+}
+.whatwedo__flex-location {
+  margin-top: 62px;
+}
+.whatwedo__location {
+  font-family: "Open sans", "sans serif";
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.line {
+  width: 100px;
+  height: 0px;
+  margin-bottom: 30px;
+  border: 1px solid #2C4058;
+}
+
+.sub {
   width: 100%;
   height: auto;
   display: flex;
@@ -169,12 +223,27 @@ table {
   flex-direction: column;
   margin-bottom: 89px;
 }
-.whatwedo .line {
-  width: 100px;
-  height: 0px;
-  left: 750px;
-  top: 900px;
-  margin-bottom: 30px;
-  border: 1px solid #2C4058;
-  align-items: center;
+
+.news__background {
+  width: 100%;
+  height: 1035px;
+  background-image: url("../img/news.png");
+  background-repeat: no-repeat;
+}
+.news__subtitle {
+  color: white;
+}
+.news .line {
+  border: 1px solid white;
+}
+.news .sub {
+  padding-top: 135px;
+}
+.news .grid-2__right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.news .grid-2__right .first__column {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }/*# sourceMappingURL=main.css.map */
