@@ -111,10 +111,6 @@ table {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-* {
-  outline: 1px solid red;
-}
-
 .container {
   max-width: 1170px;
   width: 100%;
@@ -463,8 +459,34 @@ a {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  br {
+    display: none;
+  }
   .container {
     padding-left: 20px;
+  }
+  header {
+    display: none;
+  }
+  .whatwedo__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .whatwedo__image img {
+    width: 100%;
+  }
+  .whatwedo__p1, .whatwedo__text {
+    font-size: 15px;
+  }
+  .whatwedo__subtitle {
+    font-size: 19px;
+  }
+  .whatwedo__article {
+    padding-left: 20px;
+  }
+  .background {
+    height: 953px;
   }
   .hero__title {
     font-size: 50px;
@@ -478,6 +500,9 @@ a {
   .gallery__image {
     width: 100%;
     padding-right: 10px;
+  }
+  .gallery .btn {
+    padding: 16px 16px;
   }
   .news__article {
     width: 240px;
@@ -504,6 +529,11 @@ a {
     position: relative;
     left: 40px;
     width: 90%;
+  }
+  .map-section__form-text {
+    display: flex;
+    justify-content: end;
+    align-items: center;
   }
 }
 .owl-theme .owl-dots {
