@@ -282,6 +282,7 @@ a {
   width: 370px;
   height: 514px;
   background-color: white;
+  margin-left: 50px;
 }
 .news__author {
   display: flex;
@@ -290,11 +291,13 @@ a {
 }
 .news__author img {
   border-radius: 50%;
+  width: 78px;
+  height: auto;
 }
 .news .grid-3 {
   margin-left: 90px;
 }
-.news .grid-3 h4 {
+.news h4 {
   font-family: "Montserrat", "sans serif";
   font-style: normal;
   font-weight: 700;
@@ -303,7 +306,7 @@ a {
   color: #2C4058;
   margin: 20px;
 }
-.news .grid-3 p {
+.news p {
   margin: 20px;
 }
 

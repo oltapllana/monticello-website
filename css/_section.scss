@@ -181,18 +181,22 @@ color: $grey;
         width: 370px;
         height: 514px;
         background-color: $white;
+        margin-left: 50px;
     }
     &__author{
         display: flex;
         flex-direction: row;
         img{
             border-radius: 50%;
+            width:78px; height:auto
         }
         margin: 20px;
     }
     .grid-3{
         margin-left: 90px;
-        h4{
+       
+    }
+    h4{
             
         font-family: $fontFamily;
         font-style: normal;
@@ -206,7 +210,6 @@ color: $grey;
         p{
             margin: 20px;
         }
-    }
 
 }
 .gallery{
