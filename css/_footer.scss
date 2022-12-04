@@ -1,0 +1,33 @@
+.bg{
+    width: 100%;
+    height: 549px;
+    background: url('../img/footer.png'),linear-gradient(251.06deg, #7E5AFF -2.19%, #55B7FF 103.21%);;
+}
+.main-footer{
+    &__contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 200px;
+    }
+    &__socials{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        img{
+            margin-right: 20px;
+            margin-top: -73px;
+        }
+        margin-right: 175px;
+    }
+    &__text{
+        font-family: $fontFamily;
+        color: $white;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 41px;
+    }
+    &__logo{
+        margin-left: 205px;
+    }
+}
