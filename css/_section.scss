@@ -327,6 +327,17 @@ color: $grey;
             width: 310px;
             height: 41px;
             margin-bottom: 30px;
+            &::placeholder{
+                padding: 10px;
+            }
+            border: none;
+            border-bottom: 1px solid gray;
+            opacity: 0.2;
+            &:focus{
+                outline: none !important;
+                border-bottom:1px solid black;
+                opacity: 1;
+            }
         }
     }
     &__form-text{

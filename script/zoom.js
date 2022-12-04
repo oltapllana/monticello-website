@@ -1,6 +1,6 @@
 $(function() {
 $("#btn").click(function(e){
-    $(".modal").css({"position":"absolute","left":"400px","top":"3600px"})
+    $(".modal").css({"position":"absolute","left":"400px","top":"3560px"})
     $(".modal img").css({"width": "700px", "height": "auto"})
     $(".modal").fadeIn();
 });
@@ -13,7 +13,7 @@ $('.x').click(function(e){
 
 $(function() {
     $("#btn2").click(function(e){
-        $(".modal2").css({"position":"absolute","left":"400px","top":"3600px"})
+        $(".modal2").css({"position":"absolute","left":"400px","top":"3560px"})
         $(".modal2 img").css({"width": "700px", "height": "auto"})
         $(".modal2").fadeIn();
     });
@@ -24,7 +24,7 @@ $(function() {
     });
     $(function() {
         $("#btn3").click(function(e){
-            $(".modal3").css({"position":"absolute","left":"400px","top":"3600px"})
+            $(".modal3").css({"position":"absolute","left":"400px","top":"3560px"})
             $(".modal3 img").css({"width": "700px", "height": "auto"})
             $(".modal3").fadeIn();
         });
@@ -36,7 +36,7 @@ $(function() {
 
         $(function() {
             $("#btn4").click(function(e){
-                $(".modal4").css({"position":"absolute","left":"400px","top":"3600px"})
+                $(".modal4").css({"position":"absolute","left":"400px","top":"3560px"})
                 $(".modal4 img").css({"width": "700px", "height": "auto"})
                 $(".modal4").fadeIn();
             });
@@ -48,7 +48,7 @@ $(function() {
 
             $(function() {
                 $("#btn5").click(function(e){
-                    $(".modal5").css({"position":"absolute","left":"400px","top":"3600px"})
+                    $(".modal5").css({"position":"absolute","left":"400px","top":"3560px"})
                     $(".modal5 img").css({"width": "700px", "height": "auto"})
                     $(".modal5").fadeIn();
                 });
