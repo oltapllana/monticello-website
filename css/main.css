@@ -67,10 +67,10 @@ table {
   height: 18px;
   margin-left: 104px;
 }
-.main-nav__menu > li {
+.main-nav__menu > a {
   margin-left: 40px;
 }
-.main-nav__menu > li > a {
+.main-nav__menu > a {
   display: flex;
   flex-direction: row;
   text-decoration: none;
@@ -88,7 +88,7 @@ table {
 .main-nav__menu a:hover > .circle {
   background-color: white;
 }
-.main-nav__menu li a {
+.main-nav__menu a {
   font-family: "Source Sans Pro", "sans serif";
   font-style: normal;
   font-weight: 400;
@@ -104,6 +104,11 @@ table {
 }
 .main-nav__socials > li {
   margin-left: 40px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 * {
@@ -143,6 +148,10 @@ table {
   color: #000000;
 }
 
+a {
+  text-decoration: none;
+}
+
 .hero {
   font-family: "Montserrat", "sans serif";
   color: white;
@@ -172,6 +181,10 @@ table {
   justify-content: center;
   align-items: center;
   margin-top: 190px;
+}
+.hero__scroll:hover img {
+  width: 50px;
+  height: 50px;
 }
 
 .grid-2 {
@@ -330,6 +343,11 @@ table {
 .map-section__btn {
   padding: 11px 42px;
   margin-top: 0;
+}
+
+.btn:hover {
+  background: #000;
+  color: white;
 }
 
 .bg {
