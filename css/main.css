@@ -127,6 +127,27 @@ table {
   margin: 0 auto;
 }
 
+.x, .x1, .x2, .x3, .x4 {
+  border: 1px solid black;
+  width: 14px;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+.x a, .x1 a, .x2 a, .x3 a, .x4 a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 3px;
+}
+
+.modal, .modal2, .modal3, .modal4, .modal5 {
+  display: none;
+}
+
 .background {
   width: 100%;
   height: 745px;
@@ -263,6 +284,40 @@ a {
   margin-bottom: 89px;
 }
 
+.news .owl-carousel .owl-nav button.owl-prev {
+  background: url("../assets/prev.svg") no-repeat center;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: -700px;
+  top: -300px;
+}
+.news .owl-carousel .owl-nav button.owl-prev span {
+  display: none;
+}
+.news .owl-carousel .owl-nav button.owl-next {
+  background: url("../assets/next.svg") no-repeat center;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  right: -700px;
+  top: -300px;
+}
+.news .owl-carousel .owl-nav button.owl-next span {
+  display: none;
+}
+.news .owl-theme .owl-dots {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  height: 20px;
+  position: relative;
+  bottom: 0;
+  left: 45%;
+}
+.news .owl-theme .owl-dot {
+  margin-left: 20px;
+}
 .news__background {
   width: 100%;
   height: 1035px;
@@ -282,7 +337,7 @@ a {
   width: 370px;
   height: 514px;
   background-color: white;
-  margin-left: 50px;
+  margin-left: 65px;
 }
 .news__author {
   display: flex;
