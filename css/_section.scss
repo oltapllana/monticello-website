@@ -38,10 +38,13 @@ a{
     font-family: $fontFamily;
     color: $white;
         &__text{
-            margin-top: 260px;
+            margin-top: 200px;
             height: 389px;
             display: flex;
             justify-content: center;
+        }
+        .owl-theme .owl-nav {
+            display: none;
         }
 
 
@@ -174,7 +177,36 @@ color: $grey;
     .sub{
         padding-top: 135px;
     }
-    
+    &__article{
+        width: 370px;
+        height: 514px;
+        background-color: $white;
+    }
+    &__author{
+        display: flex;
+        flex-direction: row;
+        img{
+            border-radius: 50%;
+        }
+        margin: 20px;
+    }
+    .grid-3{
+        margin-left: 90px;
+        h4{
+            
+        font-family: $fontFamily;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+
+        color: #2C4058;
+        margin: 20px;
+        }
+        p{
+            margin: 20px;
+        }
+    }
 
 }
 .gallery{
