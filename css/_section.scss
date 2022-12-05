@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid red;
+    // outline: 1px solid red;
 }
 .container{
     max-width: $containerWidth;
@@ -358,6 +358,9 @@ color: $grey;
 .btn:hover{
     background: #000;
     color: $white;
+}
+.ab{
+    display: none;
 }
 // .owl-theme .owl-nav {
 //     display: none;

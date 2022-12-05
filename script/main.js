@@ -39,3 +39,12 @@ responsive:{
 }
 })
 })
+
+$(".hamburger").click(function(){
+    $(".ham").slideToggle();
+});
+$(".hamburger").click(function(){
+    $(".owl-carousel").slideToggle();
+});
+
+
