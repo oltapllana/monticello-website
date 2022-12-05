@@ -122,10 +122,16 @@
   
     .hero{
         &__title{
-            font-size: 30px;
+            font-size: 24px;
+            margin-left: 16px;
         }
         &__subtitle{
-            font-size: 10px;
+            margin-top: -20px;
+            font-size: 9px;
+            width: 300px;
+        }
+        &__text{
+            margin-left: -30px;
         }
       
     }
@@ -264,5 +270,6 @@
     .ham-nav{
         visibility: visible;
     }
+   
 
 }
