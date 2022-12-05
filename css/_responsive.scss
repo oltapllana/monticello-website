@@ -114,5 +114,121 @@
 }
 
 @include mobile{
+    .container{
+        max-width: 767px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    header{
+        display: none;
+    }
+    .hero{
+        &__title{
+            font-size: 30px;
+        }
+        &__subtitle{
+            font-size: 10px;
+        }
+      
+    }
+    .owl-theme 
+    {.owl-dot{
+       span{
+        width: 10px;
+       } 
+    }
+}
+.whatwedo{
+    &__image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+        width: 100%;
+        }
+    }
+    &__location{
+        font-size: 8px;
+    }
+    &__p1, &__text{
+        font-size: 9px;
+        line-height: 15px;
+    }
+    &__subtitle{
+        font-size: 15px;
+    }
+    &__article{
+        padding-left: 15px;
+    }
+    .btn{
+        padding: 10px 30px;
+        font-size: 10px;
     
+    }
+    br{
+        display: none;
+    }
+}
+    .news{
+        .owl-theme 
+        {.owl-dots{
+            position: relative;
+            left: 0;
+        }
+        .owl-dot{
+            margin-left: 15px;
+        }
+    }
+    &__article{
+        width: 94%;
+        margin: 10px;
+    }
+    }
+    .gallery{
+        .image{
+            width:48%;
+        }
+        &__image{
+            width: 100%;
+            padding-right: 10px;
+        }
+        .btn{
+            padding: 10px 26px;
+            font-size: 8px;
+        }
+      
+    }
+    .map-section{
+        .bg-w{
+            position: relative;
+            left: 40px;
+            width: 90%; 
+        }
+        img{
+            display: none;
+        }
+        &__form-text{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+
+    }
+    .main-footer__contact{
+        margin-left: -200px;
+        .main-footer__socials{
+            margin-left: 0;
+        }
+        .main-footer__logo
+        { img{
+            width: 150px;
+        }
+        p{
+            font-size: 10px;
+            margin-top: 10px;
+        }
+
+    }
+    }
+
 }
